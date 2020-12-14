@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+
+}
+
+.zag {
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+
+
+i {
+    font-size: 24px;
+}
+
+.input-group {
+    border-bottom: 1px solid rgb(133, 133, 133);
+    justify-content: center;
+    color: #46a7c1;
+}
+
+.input-group-first {
+    border: 1px solid rgb(133, 133, 133);
+    border-bottom: none;
+    border-radius: 5px 5px 0 0 ;
+    color: #000000;
+}
+
+.input-group:active {
+    border: 1px solid rgb(133, 133, 133);
+    border-bottom: none;
+    border-radius: 5px 5px 0 0 ;
+    color: #000000;
+}
+
+.input-group:hover {
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 5px 5px 0 0 ;
+    color: #0e6574;
+}
+
+.group-title,
+.subject-title {
+	font-size: 0.75em;
+	font-weight: bold;
+	color: rgb(185, 185, 185);
+}
+
+.homework-item,
+.homework-list {
+	border-bottom: 1px solid rgb(145, 145, 145);
+}
+
+.homework-group,
+.form-select,
+.button {
+	font-size: 14px;
+}
+
+.form-select {
+    width: 70%;
+}
+
+.radio-in input[type="radio"],
+.radio-out input[type="radio"],
+.radio-not input[type="radio"] {
+	display: none;
+}
+
+.radio-in label[for="radio-in"],
+.radio-out label[for="radio-out"],
+.radio-not label[for="radio-not"] {
+	display: block;
+	width: 16px;
+	height: 16px;
+	border-radius: 9px;
+	position: relative;
+	}
+
+.radio-in input[type="radio"]:checked + label[for="radio-in"]:before,
+.radio-out input[type="radio"]:checked + label[for="radio-out"]:before,
+.radio-not input[type="radio"]:checked + label[for="radio-not"]:before {
+	content: "";
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	border-radius: 7px;
+	left: 1px;
+	top: 1px;
+}
+
+.radio-in label[for="radio-in"] {
+    border: 1px solid #619f61;
+}
+
+.radio-out label[for="radio-out"] {
+     border: 1px solid #ffba68;
+}
+
+.radio-not label[for="radio-not"] {
+     border: 1px solid #b96666;
+}
+
+.radio-in input[type="radio"]:checked + label[for="radio-in"]:before {
+    background-color: #619f61;
+}
+
+.radio-out input[type="radio"]:checked + label[for="radio-out"]:before {
+    background-color: #ffba68;
+}
+
+.radio-not input[type="radio"]:checked + label[for="radio-not"]:before {
+    background-color: #b96666;
+}
+
+.modal.show .modal-dialog {
+	margin-top: 150px;
+}
+
+.modal .modal-content .modal-header {
+	font-size: 20px;
+}
+
+.modal .close {
+	background-color: white;
+	border:none;
+}

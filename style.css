@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('image/fon.jpg');
+	background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-fluid {
+	width: 400px;
+}
+
+.form {
+	background-color: rgba(238, 238, 238, 0.7);
+}
+
+.text a {
+	font-size: 13px;
+}
+
+

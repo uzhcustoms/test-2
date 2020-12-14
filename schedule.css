@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+}
+
+.zag {
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+i {
+    font-size: 24px;
+}
+
+.list-group-item {
+    border: none;
+    font-size: 12px;
+}
+
+.block {
+	min-height: 3em;
+}
+
+.row-title {
+	background-color: #bee5eb;
+}
+
+.row-list {
+	font-size: 12px;
+}
+
+.col {
+	position: relative;
+}
+
+.row-list-item {
+	position: absolute;
+	top: 0.35em;
+	right: 0.35em;
+	font-size: 0.6em;
+	padding: 0 3px 0 3px;
+}
+
+.bord-1 {
+	border: 1px solid rgb(160, 193, 238);
+}
+
+.bord-2 {
+	border: 1px solid rgb(218, 218, 218);
+}
+
+.row-item:nth-last-child(2n+1) {
+	background-color: rgb(241, 241, 241);
+}
+
+.col-1 {
+	border-left: none;
+}
+
+.col:last-child {
+	border-right: none;
+}

@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+
+}
+
+.zag {
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+i {
+    font-size: 24px;
+}
+
+.group-title,
+.subject-title {
+	font-size: 0.75em;
+	font-weight: bold;
+	color: rgb(185, 185, 185);
+}
+
+.homework-item,
+.homework-list {
+	border-bottom: 1px solid rgb(145, 145, 145);
+}
+
+.homework-group,
+.form-select,
+.button {
+	font-size: 14px;
+}
+
+i {
+    font-size: 24px;
+}
+
+.fas-blue {
+	color: #86cfda;
+	font-size: 30px;
+}
+
